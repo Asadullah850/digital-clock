@@ -1,0 +1,30 @@
+@import "color.css";
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    color: #ffff;
+    font-weight: bold;
+    top: 40%;
+    left: 25%;
+    font-size: 70px;
+    display: flex;
+}
+.container span{
+    color: var(--CHARCOAL-color);
+    margin: 0px 10px;
+}
+.style{
+    height: 80px;
+    width: 100px;
+    background-color: var(--OFFREAD-color);
+    box-shadow: 1px 1px 15px 7px var(--offblue-color);
+    color: var(--CHARCOAL-color);
+    margin-left: 10px;
+    text-align: center;
+}
+.ampm{
+    width: 130px !important ;
+}
